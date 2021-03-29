@@ -8,7 +8,7 @@
 import Foundation
 
 //MARK: = Account Information
-let API_BASE = "http://api.themoviedb.org/3"
+let API_BASE = "https://api.themoviedb.org/3"
 let API_KEY = "e12c0da92617291b919ec915238a3064"
 
 //MARK: - MOVIES
