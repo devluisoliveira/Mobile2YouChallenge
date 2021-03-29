@@ -33,6 +33,7 @@ class MovieDetailsModel: Mappable {
     var spoken: [Spoken]? = []
     var status: String? = ""
     var tagline: String? = ""
+    var title: String? = ""
     var video: Bool? = false
     var vote_average: Double? = 0.0
     var vote_count: Int? = 0
@@ -59,6 +60,7 @@ class MovieDetailsModel: Mappable {
         self.spoken <- map["spoken"]
         self.status <- map["status"]
         self.tagline <- map["tagline"]
+        self.title <- map["title"]
         self.video <- map["video"]
         self.vote_average <- map["vote_average"]
         self.vote_count <- map["vote_count"]
