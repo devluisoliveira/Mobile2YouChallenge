@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8733B9FB261149CB003581A4 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733B9FA261149CB003581A4 /* MainTabController.swift */; };
+		8733B9FF26114C30003581A4 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733B9FE26114C2F003581A4 /* NowPlayingViewController.swift */; };
+		8733BA0226114CE2003581A4 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA0126114CE2003581A4 /* PopularViewController.swift */; };
+		8733BA0526114D5F003581A4 /* TopRatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA0426114D5F003581A4 /* TopRatedViewController.swift */; };
+		8733BA0826114DD4003581A4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA0726114DD4003581A4 /* SearchViewController.swift */; };
+		8733BA0B26114E5C003581A4 /* ResultSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA0A26114E5C003581A4 /* ResultSearchViewController.swift */; };
+		8733BA0E26114F1C003581A4 /* DetailsMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA0D26114F1C003581A4 /* DetailsMovieViewController.swift */; };
 		87835353260FAA1F00DA1E67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87835352260FAA1F00DA1E67 /* AppDelegate.swift */; };
 		87835355260FAA1F00DA1E67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87835354260FAA1F00DA1E67 /* SceneDelegate.swift */; };
 		87835357260FAA1F00DA1E67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87835356260FAA1F00DA1E67 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8733B9FA261149CB003581A4 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		8733B9FE26114C2F003581A4 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		8733BA0126114CE2003581A4 /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		8733BA0426114D5F003581A4 /* TopRatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedViewController.swift; sourceTree = "<group>"; };
+		8733BA0726114DD4003581A4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8733BA0A26114E5C003581A4 /* ResultSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSearchViewController.swift; sourceTree = "<group>"; };
+		8733BA0D26114F1C003581A4 /* DetailsMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMovieViewController.swift; sourceTree = "<group>"; };
 		8783534F260FAA1F00DA1E67 /* Mobile2YouChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile2YouChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87835352260FAA1F00DA1E67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87835354260FAA1F00DA1E67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +51,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8733B9F5261148B4003581A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8733B9F6261148BB003581A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8733B9F7261148C7003581A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8733B9FA261149CB003581A4 /* MainTabController.swift */,
+				8733B9FE26114C2F003581A4 /* NowPlayingViewController.swift */,
+				8733BA0126114CE2003581A4 /* PopularViewController.swift */,
+				8733BA0426114D5F003581A4 /* TopRatedViewController.swift */,
+				8733BA0726114DD4003581A4 /* SearchViewController.swift */,
+				8733BA0A26114E5C003581A4 /* ResultSearchViewController.swift */,
+				8733BA0D26114F1C003581A4 /* DetailsMovieViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8733B9F8261148D2003581A4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8733B9F9261148E8003581A4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		87835346260FAA1F00DA1E67 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +112,11 @@
 		87835351260FAA1F00DA1E67 /* Mobile2YouChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				8733B9F5261148B4003581A4 /* Model */,
+				8733B9F6261148BB003581A4 /* View */,
+				8733B9F7261148C7003581A4 /* Controller */,
+				8733B9F9261148E8003581A4 /* API */,
+				8733B9F8261148D2003581A4 /* Utils */,
 				87835352260FAA1F00DA1E67 /* AppDelegate.swift */,
 				87835354260FAA1F00DA1E67 /* SceneDelegate.swift */,
 				87835356260FAA1F00DA1E67 /* ViewController.swift */,
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8733BA0226114CE2003581A4 /* PopularViewController.swift in Sources */,
+				8733BA0526114D5F003581A4 /* TopRatedViewController.swift in Sources */,
+				8733BA0826114DD4003581A4 /* SearchViewController.swift in Sources */,
 				87835357260FAA1F00DA1E67 /* ViewController.swift in Sources */,
+				8733B9FF26114C30003581A4 /* NowPlayingViewController.swift in Sources */,
+				8733BA0B26114E5C003581A4 /* ResultSearchViewController.swift in Sources */,
 				87835353260FAA1F00DA1E67 /* AppDelegate.swift in Sources */,
+				8733B9FB261149CB003581A4 /* MainTabController.swift in Sources */,
+				8733BA0E26114F1C003581A4 /* DetailsMovieViewController.swift in Sources */,
 				87835355260FAA1F00DA1E67 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
