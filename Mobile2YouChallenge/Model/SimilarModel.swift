@@ -5,7 +5,6 @@
 //  Created by DevLuis on 29/03/21.
 //
 
-import Foundation
 import ObjectMapper
 
 class SimilarModel: Mappable {
@@ -13,7 +12,7 @@ class SimilarModel: Mappable {
         
     }
     var page: Int? = 0
-    var results: [Movies]? = []
+    var results: [SimilarMovies]? = []
     var total_pages: Int? = 0
     var total_results: Int? = 0
     

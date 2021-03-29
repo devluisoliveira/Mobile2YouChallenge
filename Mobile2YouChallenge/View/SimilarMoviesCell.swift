@@ -9,5 +9,7 @@ import UIKit
 
 class SimilarMoviesCell: UICollectionViewCell {
     
-    
+    //var titleSimilarLabel: UILabel = {
+        
+    //}()
 }
