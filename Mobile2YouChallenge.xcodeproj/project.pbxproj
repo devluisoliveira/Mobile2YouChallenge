@@ -20,6 +20,7 @@
 		8733BA1A26116AA7003581A4 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA1926116AA7003581A4 /* UIImageView.swift */; };
 		8733BA1D26116B4D003581A4 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA1C26116B4D003581A4 /* UILabel.swift */; };
 		8733BA202611721C003581A4 /* PopularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA1F2611721C003581A4 /* PopularCell.swift */; };
+		8733BA23261174DC003581A4 /* TopRatedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA22261174DC003581A4 /* TopRatedCell.swift */; };
 		87835353260FAA1F00DA1E67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87835352260FAA1F00DA1E67 /* AppDelegate.swift */; };
 		87835355260FAA1F00DA1E67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87835354260FAA1F00DA1E67 /* SceneDelegate.swift */; };
 		87835357260FAA1F00DA1E67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87835356260FAA1F00DA1E67 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		8733BA1926116AA7003581A4 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		8733BA1C26116B4D003581A4 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		8733BA1F2611721C003581A4 /* PopularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCell.swift; sourceTree = "<group>"; };
+		8733BA22261174DC003581A4 /* TopRatedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedCell.swift; sourceTree = "<group>"; };
 		8783534F260FAA1F00DA1E67 /* Mobile2YouChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile2YouChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87835352260FAA1F00DA1E67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87835354260FAA1F00DA1E67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				8733BA1026115B0F003581A4 /* MovieCell.swift */,
 				8733BA1F2611721C003581A4 /* PopularCell.swift */,
+				8733BA22261174DC003581A4 /* TopRatedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8733BA0226114CE2003581A4 /* PopularViewController.swift in Sources */,
+				8733BA23261174DC003581A4 /* TopRatedCell.swift in Sources */,
 				8733BA0526114D5F003581A4 /* TopRatedViewController.swift in Sources */,
 				8733BA1A26116AA7003581A4 /* UIImageView.swift in Sources */,
 				8733BA0826114DD4003581A4 /* SearchViewController.swift in Sources */,
