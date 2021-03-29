@@ -110,8 +110,8 @@
 				8733BA22261174DC003581A4 /* TopRatedCell.swift */,
 				8733BA25261179A2003581A4 /* InfoMovieCell.swift */,
 				8733BA282611836B003581A4 /* HeaderView.swift */,
-				8733BA2B261188FD003581A4 /* SlidePhotoMoviesCell.swift */,
 				8733BA2E26118D7F003581A4 /* SimilarMoviesCell.swift */,
+				8733BA2B261188FD003581A4 /* SlidePhotoMoviesCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

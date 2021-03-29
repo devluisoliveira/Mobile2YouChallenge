@@ -9,6 +9,7 @@ import UIKit
 
 class DetailsMovieViewController: UICollectionViewController {
     //MARK: - Properties
+    var movie_id: Int?
     
     //MARK: - Lifecycle
     
