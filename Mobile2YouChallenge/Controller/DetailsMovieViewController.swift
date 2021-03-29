@@ -12,6 +12,9 @@ class DetailsMovieViewController: UICollectionViewController {
     
     //MARK: - Lifecycle
     
-    //MARK: = API
+    //MARK: - API
     
+    //MARK: - Selectors
+    
+    //MARK: - Helpers
 }
