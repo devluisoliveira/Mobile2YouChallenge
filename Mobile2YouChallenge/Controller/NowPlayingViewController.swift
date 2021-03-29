@@ -62,7 +62,7 @@ extension NowPlayingViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! MovieCell
         
         print ("poster: \(movies[indexPath.row].getImagePosterPath())")
-        if let urlPoster = URL(string: "\(movies[indexPath.row]).getImagePosterPath") {
+        if let urlPoster = URL(string: "\(movies[indexPath.row].getImagePosterPath())") {
             cell.movieImageView.kf.setImage(with: URL(string: "\(urlPoster)"))
         } else {
             cell.movieImageView.image = UIImage(named: "notimage")
