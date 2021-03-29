@@ -14,6 +14,9 @@
 		8733BA0826114DD4003581A4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA0726114DD4003581A4 /* SearchViewController.swift */; };
 		8733BA0B26114E5C003581A4 /* ResultSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA0A26114E5C003581A4 /* ResultSearchViewController.swift */; };
 		8733BA0E26114F1C003581A4 /* DetailsMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA0D26114F1C003581A4 /* DetailsMovieViewController.swift */; };
+		8733BA1126115B0F003581A4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA1026115B0F003581A4 /* MovieCell.swift */; };
+		8733BA1426115FB4003581A4 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA1326115FB4003581A4 /* UIView.swift */; };
+		8733BA1726116610003581A4 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733BA1626116610003581A4 /* UIColor.swift */; };
 		87835353260FAA1F00DA1E67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87835352260FAA1F00DA1E67 /* AppDelegate.swift */; };
 		87835355260FAA1F00DA1E67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87835354260FAA1F00DA1E67 /* SceneDelegate.swift */; };
 		87835357260FAA1F00DA1E67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87835356260FAA1F00DA1E67 /* ViewController.swift */; };
@@ -30,6 +33,9 @@
 		8733BA0726114DD4003581A4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		8733BA0A26114E5C003581A4 /* ResultSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSearchViewController.swift; sourceTree = "<group>"; };
 		8733BA0D26114F1C003581A4 /* DetailsMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMovieViewController.swift; sourceTree = "<group>"; };
+		8733BA1026115B0F003581A4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		8733BA1326115FB4003581A4 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		8733BA1626116610003581A4 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		8783534F260FAA1F00DA1E67 /* Mobile2YouChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile2YouChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87835352260FAA1F00DA1E67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87835354260FAA1F00DA1E67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,7 @@
 		8733B9F6261148BB003581A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8733BA1026115B0F003581A4 /* MovieCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -82,6 +89,8 @@
 		8733B9F8261148D2003581A4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8733BA1326115FB4003581A4 /* UIView.swift */,
+				8733BA1626116610003581A4 /* UIColor.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -201,10 +210,13 @@
 				8733BA0226114CE2003581A4 /* PopularViewController.swift in Sources */,
 				8733BA0526114D5F003581A4 /* TopRatedViewController.swift in Sources */,
 				8733BA0826114DD4003581A4 /* SearchViewController.swift in Sources */,
+				8733BA1126115B0F003581A4 /* MovieCell.swift in Sources */,
+				8733BA1426115FB4003581A4 /* UIView.swift in Sources */,
 				87835357260FAA1F00DA1E67 /* ViewController.swift in Sources */,
 				8733B9FF26114C30003581A4 /* NowPlayingViewController.swift in Sources */,
 				8733BA0B26114E5C003581A4 /* ResultSearchViewController.swift in Sources */,
 				87835353260FAA1F00DA1E67 /* AppDelegate.swift in Sources */,
+				8733BA1726116610003581A4 /* UIColor.swift in Sources */,
 				8733B9FB261149CB003581A4 /* MainTabController.swift in Sources */,
 				8733BA0E26114F1C003581A4 /* DetailsMovieViewController.swift in Sources */,
 				87835355260FAA1F00DA1E67 /* SceneDelegate.swift in Sources */,
