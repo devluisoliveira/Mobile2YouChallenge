@@ -41,7 +41,7 @@ class MainTabController: UITabBarController {
         let search = SearchViewController()
         let nav4 = templateNavigationController(image: UIImage(systemName: "magnifyingglass"), rootViewController: search, title: "Search Movies")
         
-        viewControllers = [nav1, nav2, nav3, nav4]
+        viewControllers = [nav1,nav2,nav3,nav4]
     }
     
     func templateNavigationController(image: UIImage?, rootViewController: UIViewController, title: String?) -> UINavigationController {

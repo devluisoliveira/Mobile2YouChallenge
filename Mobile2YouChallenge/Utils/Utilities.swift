@@ -9,7 +9,7 @@ import UIKit
 
 class Utilities {
     let sectionInsets = UIEdgeInsets(top: 15, left: 15, bottom: 15, right: 15)
-    let itmsPerRow: CGFloat = 3
+    let itemsPerRow: CGFloat = 3
     
     func inputContainerView(withImage image: UIImage, textField: UITextField) -> UIView {
         let view = UIView()
@@ -18,7 +18,7 @@ class Utilities {
         view.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
         iv.image = image
-        view.addSubview(view)
+        view.addSubview(iv)
         iv.anchor(left: view.leftAnchor, bottom: view.bottomAnchor, paddingLeft: 8, paddingBottom: 8)
         iv.setDimension(widht: 24, height: 24)
         

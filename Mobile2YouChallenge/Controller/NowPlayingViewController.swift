@@ -98,9 +98,9 @@ extension NowPlayingViewController {
 //MARK: - UICollectionViewDelegateFlowLayout
 extension NowPlayingViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let paddingSpace = Utilities().sectionInsets.left * (Utilities().itmsPerRow + 1)
+        let paddingSpace = Utilities().sectionInsets.left * (Utilities().itemsPerRow + 1)
         let availableWidth = view.frame.width - paddingSpace
-        let widthPerItem = availableWidth / Utilities().itmsPerRow
+        let widthPerItem = availableWidth / Utilities().itemsPerRow
         return CGSize(width: widthPerItem, height: widthPerItem + 50)
     }
 }

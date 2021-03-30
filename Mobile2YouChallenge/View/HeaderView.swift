@@ -19,7 +19,7 @@ class HeaderView: UICollectionReusableView {
         let view = UIView()
         view.backgroundColor = .clear
         view.addSubview(backButton)
-        backButton.anchor(top: topAnchor, left: view.leftAnchor, paddingTop: 42, paddingLeft: 16)
+        backButton.anchor(top: view.topAnchor, left: view.leftAnchor, paddingTop: 42, paddingLeft: 16)
         backButton.setDimension(widht: 30, height: 30)
         return view
     }()
